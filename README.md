@@ -1,2 +1,0 @@
-# Xunit.ApprovalTests
-Xunit.ApprovalTests

@@ -1,7 +1,7 @@
-# <img src="/src/icon.png" height="30px"> Xunit.ApprovalTests
+# <img src="/src/icon.png" height="30px"> ApprovalTests.Net.Xunit
 
-[![Build status](https://ci.appveyor.com/api/projects/status/5x0gasnuhtblvcv2/branch/master?svg=true)](https://ci.appveyor.com/project/SimonCropp/Xunit.ApprovalTests)
-[![NuGet Status](https://img.shields.io/nuget/v/Xunit.ApprovalTests.svg?cacheSeconds=86400)](https://www.nuget.org/packages/Xunit.ApprovalTests/)
+[![Build status](https://ci.appveyor.com/api/projects/status/5x0gasnuhtblvcv2/branch/master?svg=true)](https://ci.appveyor.com/project/SimonCropp/ApprovalTests.Net.Xunit)
+[![NuGet Status](https://img.shields.io/nuget/v/ApprovalTests.Net.Xunit.svg?cacheSeconds=86400)](https://www.nuget.org/packages/ApprovalTests.Net.Xunit/)
 
 
 The default behavior of ApprovalTests uses the [StackTrace](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.stacktrace) to derive the current test and hence compute the name of the approval file. This has several drawbacks/issues:
@@ -9,7 +9,7 @@ The default behavior of ApprovalTests uses the [StackTrace](https://docs.microso
  * Fragility: Deriving the test name from a stack trace is dependent on several things to be configured correctly. Optimization must be disabled to avoid in-lining and debug symbols enabled and parsable.
  * Performance impact: Computing a stack trace is a relatively expensive operation. Disabling optimization also impacts performance
 
-Xunit.ApprovalTests avoids these problems by using the current xUnit context to derive the approval file name.
+ApprovalTests.Net.Xunit avoids these problems by using the current xUnit context to derive the approval file name.
 
 
 toc
@@ -17,7 +17,7 @@ toc
 
 ## NuGet package
 
-https://nuget.org/packages/Xunit.ApprovalTests/
+https://nuget.org/packages/ApprovalTests.Net.Xunit/
 
 
 ## Usage

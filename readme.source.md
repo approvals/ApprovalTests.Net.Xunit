@@ -1,6 +1,6 @@
 # <img src="/src/icon.png" height="30px"> ApprovalTests.Net.Xunit
 
-[![Build status](https://ci.appveyor.com/api/projects/status/5x0gasnuhtblvcv2/branch/master?svg=true)](https://ci.appveyor.com/project/SimonCropp/ApprovalTests.Net.Xunit)
+[![Build status](https://ci.appveyor.com/api/projects/status/qk4xk406p476mu1d/branch/master?svg=true)](https://ci.appveyor.com/project/SimonCropp/ApprovalTests.Net.Xunit)
 [![NuGet Status](https://img.shields.io/nuget/v/ApprovalTests.Net.Xunit.svg?cacheSeconds=86400)](https://www.nuget.org/packages/ApprovalTests.Net.Xunit/)
 
 
